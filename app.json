@@ -1,0 +1,22 @@
+{
+  "name": "SocietyFlowResident",
+  "displayName": "SocietyFlow Resident",
+  "version": "1.0.0",
+  "expo": {
+    "name": "SocietyFlow Resident",
+    "slug": "societyflow-resident",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow SocietyFlowResident to access your microphone.",
+          "mediaLibraryPermission": "Allow SocietyFlowResident to access your media library."
+        }
+      ]
+    ]
+  }
+}
