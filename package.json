@@ -1,0 +1,50 @@
+{
+  "name": "societyflow-resident",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-document-picker": "^9.3.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-haptic-feedback": "^2.2.0",
+    "react-native-image-picker": "^8.2.1",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-phone-call": "^1.1.0",
+    "react-native-rename": "^3.2.17",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^4.10.1",
+    "react-native-screens": "^3.31.1",
+    "react-native-skeleton-placeholder": "^5.2.4",
+    "react-native-svg": "^13.14.0",
+    "react-native-vector-icons": "^10.1.0",
+    "react-native-webview": "^13.16.1",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native-community/cli": "13.6.9",
+    "@react-native/babel-preset": "^0.74.83",
+    "@react-native/eslint-config": "^0.74.83",
+    "@react-native/metro-config": "^0.74.83",
+    "@react-native/typescript-config": "^0.74.83",
+    "@types/react": "^18.2.6"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
