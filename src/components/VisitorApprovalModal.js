@@ -32,7 +32,7 @@ export default function VisitorApprovalModal({ visible, visitor, onApprove, onRe
       await onApprove(visitor.id);
       
       // Show toast notification
-      ToastAndroid.show(`✅ ${visitor.name || 'Visitor'} approved!`, ToastAndroid.LONG);
+      ToastAndroid.show(`✅ ${visitor.name || `Visitor'} approved!`, ToastAndroid.LONG);
       
       // Emit event to notify listeners about approval
       EventEmitter.emit('visitor_approved', {

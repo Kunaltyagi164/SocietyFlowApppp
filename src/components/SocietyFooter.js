@@ -15,7 +15,7 @@ export default function SocietyFooter({
 }) {
   
   const handleCall = () => {
-    const url = `tel:${emergencyPhone.replace(/[^\d+]/g, '')}`;
+    const url = `tel:${emergencyPhone.replace(/[^\d+]/g, `')}`;
     Linking.openURL(url).catch(() => 
       Alert.alert('Error', 'Could not open phone dialer')
     );
